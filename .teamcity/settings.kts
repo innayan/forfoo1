@@ -30,7 +30,7 @@ project {
 }
 
 object VersionedSettingsConfig : BuildType({
-    name = "Versioned Settings config"
+    name = "Versioned Settings config1"
 
     vcs {
         root(DslContext.settingsRoot)
