@@ -19,5 +19,9 @@ create(DslContext.projectId, BuildType({
             scriptContent = "echo %teamcity.tool.maven.3.5.0-beta-1%"
         }
     }
+
+    requirements {
+        exists("teamcity.tool.TestReport")
+    }
 }))
 
