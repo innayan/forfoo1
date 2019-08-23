@@ -22,6 +22,7 @@ create(DslContext.projectId, BuildType({
 
     requirements {
         contains("system.agent.name", "A")
+        exists("zxzxzx")
     }
 }))
 
