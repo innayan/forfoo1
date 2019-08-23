@@ -22,7 +22,7 @@ create(DslContext.projectId, BuildType({
 
     requirements {
         contains("system.agent.name", "17")
-        exists("teamcity.tool.TestReport1")
+        exists("teamcity.tool.TestReport")
     }
 }))
 
