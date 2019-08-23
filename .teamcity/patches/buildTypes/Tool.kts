@@ -14,6 +14,8 @@ create(DslContext.projectId, BuildType({
     id("Tool")
     name = "tool"
 
+    artifactRules = "echo %teamcity.tool.TestReport%"
+
     steps {
         script {
             scriptContent = "echo %teamcity.tool.maven.3.5.0-beta-1%"
