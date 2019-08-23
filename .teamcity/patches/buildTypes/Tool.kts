@@ -21,7 +21,6 @@ create(DslContext.projectId, BuildType({
     }
 
     requirements {
-        contains("system.agent.name", "age")
         contains("system.agent.name", "A")
     }
 }))
